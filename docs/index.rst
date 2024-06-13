@@ -9,7 +9,7 @@ help others experiencing similar issues.
 ``markethours`` features include:
 
 * Reference stock trading hours by date
-* Automatically localize to Eastern Standard time
+* Automatically localize to Eastern Standard Time
 * Easily check whether market has opened or closed
 * No user accounts needed
 
