@@ -20,4 +20,6 @@ setuptools.setup(
     extras_require={
       'dev': [
         'pytest',
-        'pytest-timeout']})
+        'pytest-timeout',
+        'sphinx',
+        'sphinx_rtd_theme']})

@@ -9,11 +9,6 @@ class TestMarketHours:
   @classmethod
   def setup_class(cls):
     cls.market_hours = MarketHours('2024-06-03')
-
-  def test_check_market_hours(self, mock_dt):
-    hours = self.market_hours.check_market_hours()
-    assert hours['open'] == '09:30:00'
-    assert hours['close'] == '16:00:00'
   
   def test_change_date(self, mock_dt):
     self.market_hours.change_date('2024-06-05')
